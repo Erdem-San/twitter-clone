@@ -16,7 +16,7 @@ import {
 
 export default function Sidebar() {
   return (
-    <div className='hidden sm:flex p-4'>
+    <div className='hidden sm:flex sm:mr-14 xl:mr-0 p-4'>
       <div className='fixed xl:items-start min-h-screen flex flex-col justify-between'>
         {/* Twitter Logo */}
         <div className='space-y-4'>
@@ -41,11 +41,11 @@ export default function Sidebar() {
 
           {/* Button */}
 
-          <button className='bg-blue-400 text-white rounded-full w-56 h-12 shadow-md hover:brightness-95 text-lg hidden xl:inline'>Tweet</button>
+          <button className='transition duration-500 ease-in-out bg-blue-400 text-white rounded-full w-56 h-12 shadow-md hover:brightness-15 text-lg hidden xl:inline'>Tweet</button>
         </div>
 
         {/* Mini-Profile */}
-        <div className='hidden sm:flex space-x-3 items-center mb-5 p-3 hover:bg-gray-200 hover:rounded-full hover:text-blue-400'>
+        <div className='transition duration-500 ease-in-out cursor-pointer hover:bg-gray-200 hover:bg-opacity-30 rounded-full hover:text-blue-400 hidden sm:flex space-x-3 items-center mb-5 p-3'>
           <img className='rounded-full w-10 h-10' alt="user image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHaQdd9mUANh7_JhLInDbMAf0HTWxUBHq5Jc8kM5wyykiDPaIle9-X-cjbV_IH1NyYOcAa1zzTMO1sKt_4uyOSxXgxHDXx5kbo4mnhtLcu0zNiOENr-csyKf8i8ouO8_LsDrhF6h178kUQFlfXct11KfNgfEGUPYCPXOlZ0766t1Ly8tqR6aVPROTW/s1600/img_avatar-removebg-preview%20%281%29.png" />
           <div className='hidden xl:inline'>
             <h4>Erdem Sandıkçı</h4>

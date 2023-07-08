@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html className='max-w-7xl mx-auto justify-center' lang="en">
-      <body className={`${inter.className} min-h-screen grid grid-flow-row-dense grid-cols-4 bg-white dark:bg-black`}>
+      <body className={`${inter.className} min-h-screen flex xl:grid xl:grid-flow-row-dense xl:grid-cols-4 bg-white dark:bg-black`}>
 
         {/* Sidebar */} 
           <Sidebar/>
