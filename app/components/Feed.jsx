@@ -38,7 +38,7 @@ export default function Feed() {
 
   return (
     <div className='border-l border-r border-gray-600 col-span-4 sm:col-span-3 xl:col-span-2 w-full'>
-        <div className='flex sticky top-0 border-b border-gray-600 h-16 z-50 backdrop-blur-sm px-2 items-center justify-between space-x-2 text-bold'>
+        <div className='flex sticky top-0 border-b border-gray-600 h-16 z-50 backdrop-blur-xl px-2 items-center justify-between space-x-2 text-bold'>
             <h2>Home</h2>
             <SparklesIcon className='h-8 transition duration-500 ease-in-out cursor-pointer flex items-center justify-center hover:bg-gray-200 hover:bg-opacity-30 hover:text-blue-400 rounded-full p-1'/>
         </div>

@@ -32,7 +32,8 @@ export default function Post({post}) {
           </div>
 
           {/* dot icon */}
-          <EllipsisHorizontalCircleIcon className="h-10 hoverEffect w-10 hover:bg-sky-100 hover:text-sky-500 p-2" />
+          <EllipsisHorizontalCircleIcon className="h-10 hoverEffect w-10 hover:bg-sky-100 hover:text-sky-500 p-2 transition duration-500 ease-in-out cursor-pointer
+hover:bg-opacity-30 rounded-full" />
         </div>
 
         {/* post text */}
